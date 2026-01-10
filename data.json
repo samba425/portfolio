@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "name": "Alla Samba Siva Rao",
+    "title": "Senior Full Stack Developer",
+    "subtitle": "Architect | AWS Certified | AI/ML Enthusiast",
+    "description": "Passionate Full Stack Developer with 8+ years of experience in designing and building scalable web applications. Expert in modern frameworks, cloud technologies, and leading development teams to deliver exceptional digital solutions.",
+    "email": "asiva325@gmail.com",
+    "phone": "+91 8971245863",
+    "location": "Hyderabad, India",
+    "github": "https://github.com/samba425",
+    "linkedin": "https://www.linkedin.com/in/samba-siva-rao-alla-67a05160/",
+    "stats": {
+      "experience": "8+",
+      "projects": "20+",
+      "users": "100K+"
+    }
+  },
+  "skills": [
+    {
+      "id": 1,
+      "category": "Frontend Development",
+      "icon": "fa-code",
+      "featured": false,
+      "items": ["Angular 8+", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap", "Responsive Design"]
+    },
+    {
+      "id": 2,
+      "category": "Backend Development",
+      "icon": "fa-server",
+      "featured": false,
+      "items": ["Node.js", "Express.js", "Python", "FastAPI", "RESTful APIs", "Microservices"]
+    },
+    {
+      "id": 3,
+      "category": "Database Systems",
+      "icon": "fa-database",
+      "featured": false,
+      "items": ["MongoDB", "NoSQL Design", "Database Optimization", "Vector Databases"]
+    },
+    {
+      "id": 4,
+      "category": "AI/ML & Automation",
+      "icon": "fa-brain",
+      "featured": true,
+      "items": ["Artificial Intelligence", "Machine Learning", "RAG Systems", "LangChain", "OpenAI Integration", "AIOps"]
+    },
+    {
+      "id": 5,
+      "category": "DevOps & Tools",
+      "icon": "fa-tools",
+      "featured": false,
+      "items": ["Docker", "Jenkins", "CI/CD Pipelines", "Git", "NPM", "Container Orchestration"]
+    },
+    {
+      "id": 6,
+      "category": "Testing & Quality",
+      "icon": "fa-check-double",
+      "featured": false,
+      "items": ["Karma", "Jasmine", "Unit Testing", "Code Review", "TDD"]
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Software Consulting Engineer",
+      "company": "Cisco Systems Inc.",
+      "duration": "April 2021 - Present",
+      "description": "Leading technical initiatives for enterprise automation and AI-powered solutions",
+      "achievements": [
+        "Architected Bank of America BPA platform, reducing manual processing by 50%",
+        "Designed AIOps platform using RAG technology with 85% accuracy in context retrieval",
+        "Built scalable microservices serving 100K+ daily transactions",
+        "Implemented CI/CD pipelines reducing deployment time by 60%",
+        "Integrated AI/ML models improving automation by 40%"
+      ],
+      "technologies": ["Angular", "Node.js", "Python", "FastAPI", "RAG", "AI/ML", "MongoDB", "Docker"]
+    },
+    {
+      "id": 2,
+      "title": "Senior Associate Consultant",
+      "company": "Infosys Ltd.",
+      "duration": "May 2019 - April 2021",
+      "description": "Delivered enterprise-grade MEAN stack applications for global clients",
+      "achievements": [
+        "Spearheaded MEAN stack applications serving 50K+ concurrent users",
+        "Optimized performance achieving 35% improvement in response times",
+        "Implemented OAuth 2.0 and RBAC for secure enterprise applications",
+        "Mentored 8+ junior developers on MEAN stack best practices",
+        "Achieved 95% customer satisfaction rating"
+      ],
+      "technologies": ["MongoDB", "Express.js", "Angular", "Node.js", "TypeScript"]
+    },
+    {
+      "id": 3,
+      "title": "Senior Software Engineer",
+      "company": "Mindtree Ltd.",
+      "duration": "January 2018 - May 2019",
+      "description": "Developed innovative full-stack solutions for financial services and enterprise clients",
+      "achievements": [
+        "Built FT-USDE mutual funds platform for financial advisors",
+        "Developed SphereSuite HR and payroll management system",
+        "Created E-commerce platforms (EazyShoppy, Vegwalkers)",
+        "Achieved 80%+ code coverage with comprehensive testing",
+        "Improved code quality by 40% through reviews and standards"
+      ],
+      "technologies": ["Angular", "Node.js", "MongoDB", "Karma", "Jasmine"]
+    },
+    {
+      "id": 4,
+      "title": "Software Engineer",
+      "company": "Saptalabs Pvt. Ltd.",
+      "duration": "April 2017 - December 2017",
+      "description": "Contributed to web development and application prototyping initiatives",
+      "achievements": [],
+      "technologies": ["Angular", "Node.js", "MongoDB", "Bootstrap"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Bank of America BPA Platform",
+      "company": "Cisco Systems",
+      "icon": "fa-building",
+      "featured": false,
+      "description": "Enterprise-grade business process automation solution for banking operations",
+      "impact": [
+        "50% reduction in manual processing",
+        "Improved compliance & efficiency"
+      ],
+      "technologies": ["Angular", "Node.js", "Python", "MongoDB", "Docker"]
+    },
+    {
+      "id": 2,
+      "title": "AIOps & RAG Intelligence System",
+      "company": "Cisco Systems",
+      "icon": "fa-robot",
+      "featured": true,
+      "description": "AI-powered operations platform with intelligent knowledge retrieval and predictive analytics",
+      "impact": [
+        "85% accuracy in context retrieval",
+        "40% faster incident resolution"
+      ],
+      "technologies": ["Python", "FastAPI", "RAG", "LangChain", "AI/ML"]
+    },
+    {
+      "id": 3,
+      "title": "Enterprise MEAN Stack Applications",
+      "company": "Infosys",
+      "icon": "fa-layer-group",
+      "featured": false,
+      "description": "Multiple scalable web applications serving 50K+ concurrent users",
+      "impact": [
+        "35% performance improvement",
+        "95% customer satisfaction"
+      ],
+      "technologies": ["MongoDB", "Express.js", "Angular", "Node.js"]
+    },
+    {
+      "id": 4,
+      "title": "FT-USDE Mutual Funds Platform",
+      "company": "Mindtree",
+      "icon": "fa-chart-pie",
+      "featured": false,
+      "description": "Comprehensive dashboard for financial advisors to manage client portfolios",
+      "impact": [],
+      "technologies": ["Angular", "Node.js", "MongoDB"]
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Excellence in Innovation",
+      "organization": "Cisco Systems",
+      "year": "2023",
+      "icon": "fa-award"
+    },
+    {
+      "id": 2,
+      "title": "Outstanding Performance",
+      "organization": "Infosys",
+      "year": "2020",
+      "icon": "fa-star"
+    },
+    {
+      "id": 3,
+      "title": "Best Technical Contributor",
+      "organization": "Mindtree",
+      "year": "2019",
+      "icon": "fa-medal"
+    },
+    {
+      "id": 4,
+      "title": "Team Leadership Award",
+      "organization": "Mindtree",
+      "year": "2018",
+      "icon": "fa-users"
+    }
+  ]
+}

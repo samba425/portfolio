@@ -542,6 +542,8 @@ body > * {
     background-clip: text;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    white-space: nowrap;
+    overflow: visible;
 }
 
 .stat p {

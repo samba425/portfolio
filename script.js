@@ -177,7 +177,14 @@ window.addEventListener('scroll', highlightNavigation);
 const stats = document.querySelectorAll('.stat h3');
 
 const animateStats = (stat) => {
-    const target = parseInt(stat.textContent);
+    const originalText = stat.textContent;
+    const hasK = originalText.includes('K');
+    const hasM = originalText.includes('M');
+    
+    // Extract numeric value
+    const numericValue = parseFloat(originalText);
+    const target = hasK ? numericValue * 1000 : (hasM ? numericValue * 1000000 : numericValue);
+    
     const duration = 2000;
     const step = target / (duration / 16);
     let current = 0;
@@ -185,10 +192,18 @@ const animateStats = (stat) => {
     const updateCounter = () => {
         current += step;
         if (current < target) {
-            stat.textContent = Math.floor(current) + '+';
+            let displayValue = Math.floor(current);
+            if (hasK) {
+                displayValue = (displayValue / 1000).toFixed(0) + 'K+';
+            } else if (hasM) {
+                displayValue = (displayValue / 1000000).toFixed(0) + 'M+';
+            } else {
+                displayValue = displayValue + '+';
+            }
+            stat.textContent = displayValue;
             requestAnimationFrame(updateCounter);
         } else {
-            stat.textContent = target + '+';
+            stat.textContent = originalText;
         }
     };
     
